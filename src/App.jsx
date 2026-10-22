@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Card from '../components/card'
+import ProjectCard from '../components/projectcard'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -32,9 +33,14 @@ function App() {
 
   return (
     <>
+    <div className='PARENT max-w-7xl mx-auto px-6 md:px-8 py-6 flex flex-col gap-6'>
+           <div>
+        <ProjectCard/>
+      
+    </div>
     <div className='flex flex-col items-start justify-between gap-1 bg-white w-full rounded-2xl overflow-hidden relative m-2 p-4  border border-gray-100'>
       <div className='flex w-full items-center justify-between'>
-          <h1 className=' text-3xl font-bold'>ALL PROJECT</h1>
+          <h1 className=' text-3xl font-bold m-3 ml-4'>ALL PROJECT</h1>
           <div className='flex items-center justify-between gap-1'>
             <h1><input 
               type="text" 
@@ -46,7 +52,7 @@ function App() {
               m-3'
            />  
           </h1>
-          <button className='border border-black text-xs font-semibold px-3 py-1 rounded-full bg-blue-200' >+ New Project</button>
+          <button className='border border-black text-xs font-semibold px-3 py-1 rounded-full bg-blue-200 m-2' >+ New Project</button>
           </div>
       </div>
 
@@ -64,6 +70,9 @@ function App() {
  
     </div>
     </div>
+   
+    </div>
+
  
    </>
     

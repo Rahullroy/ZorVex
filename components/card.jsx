@@ -1,7 +1,7 @@
 import React from "react";
 const Card=(props)=>{
     return(
-        <div className= " bg-white w-full h-full rounded-2xl overflow-hidden relative m-2 p-4 shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 flex flex-col gap-3"> 
+        <div className= " bg-white w-full h-full rounded-2xl overflow-hidden relative m-2 p-4 shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100 flex flex-col gap-3 px-6 py-6"> 
             <h1 className='font-bold bold text-lg text-gray-800 line-clamp-1'>{props.title}</h1>
             <div className="flex items-center justify-between gap-2">
                 <span className="bg-blue-50 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full">
