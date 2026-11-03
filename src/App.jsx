@@ -36,8 +36,15 @@ function App() {
   return (
     <>
     <div className="flex min-h-screen bg-gray-100">
-      <div className='w-40 shrink-0'>
-        <h1 className=' bg-white h-10 w-36 rounded-md overflow-hidden relative m-2 transform translate-y-6 p-4 shadow-md flex items-center text-center'>ZorVex</h1>
+      <div className='w-40 shrink-0 flex flex-col gap-1 py-6'>
+        <div className="flex h-12 items-center gap-2 rounded-lg bg-white shadow-sm mx-2 mt-2 mb-0 px-4 py-4 ">
+            <div className="flex h-7 w-7 items-center justify-center rounded-md bg-blue-100 text-blue-700 font-bold text-sm">
+                 Z
+            </div>
+            <h1 className="text-sm font-semibold text-gray-800">
+                ZorVex
+            </h1>
+        </div>
         <SideBar/>
       </div>
 

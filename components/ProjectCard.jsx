@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectCard = (props) => {
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full m-2">
+        <div className="flex items-center justify-between g-2 bg-white rounded-md w-full m-2 py-3 px-4">
             <div className="flex flex-col bg-white h-full w-full rounded-md overflow-hidden relative m-2 p-4 shadow-md  ">
                 Total Process: {props.totalProcess}
             </div>
