@@ -16,7 +16,7 @@ function SideBar() {
     <div className="bg-white rounded-lg p-3">
       <p className="text-xs text-gray-400 px-3 py-2">MENU</p>
 
-      <div className="flex flex-col gap-1">
+      <div className="flex flex-col gap-1 h-190">
         {menuItems.map((item) => (
           <NavLink
             key={item.path}
